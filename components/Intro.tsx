@@ -7,7 +7,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import Link from "next/link";
 export default function Intro() {
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
+    <section className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[50rem]">
       <div className="flex items-center justify-center ">
         <div className="relative">
           <motion.div
@@ -49,16 +49,13 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Abdallah Azme.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> using the{" "}
-        <span className="font-bold">MERN stack</span> with{" "}
-        <span className="font-bold">Next.js</span>,{" "}
-        <span className="font-bold">Node.js</span>, and{" "}
-        <span className="font-bold">Express</span>. My focus is{" "}
+        <span className="font-bold">full-stack developer</span> specializing in{" "}
         <span className="underline">React (Next.js)</span>,{" "}
         <span className="underline">Node.js</span>, and{" "}
-        <span className="underline">Express</span>. I enjoy building{" "}
-        <span className="italic">websites and applications</span> utilizing both
-        SQL and NoSQL databases.
+        <span className="underline">Express</span>. I work with the{" "}
+        <span className="font-bold">MERN stack</span> and enjoy building{" "}
+        <span className="italic">websites and applications</span> using both SQL
+        and NoSQL databases.
       </motion.h1>
 
       <motion.div
